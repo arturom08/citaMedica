@@ -23,6 +23,10 @@ class UserFactory extends Factory
             'email_verified_at' => now(),
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
             'remember_token' => Str::random(10),
+            'cedula' => fake()->randomNumber(8, true),
+            'address' => fake()->address(),
+            'phone' => fake()->tollFreePhoneNumber(),
+            'role' => fake()->randomElement(['paciente','doctor']),
         ];
     }
 

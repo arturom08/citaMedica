@@ -1,7 +1,7 @@
 <h6 class="navbar-heading text-muted">Gestión</h6>
 <ul class="navbar-nav">
           <li class="nav-item  active ">
-            <a class="nav-link  active " href="./index.html">
+            <a class="nav-link  active " href="/home">
               <i class="ni ni-tv-2 text-danger"></i> Dashboard
             </a>
           </li>
@@ -11,12 +11,12 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="./examples/maps.html">
+            <a class="nav-link " href="/medicos">
               <i class="fas fa-stethoscope text-info"></i> Médicos
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="./examples/profile.html">
+            <a class="nav-link " href="/pacientes">
               <i class="fas fa-bed text-warning"></i> Pacientes
             </a>
           </li>
