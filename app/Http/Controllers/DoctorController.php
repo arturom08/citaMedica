@@ -30,7 +30,7 @@ class DoctorController extends Controller
         $rules = [
             'name' => 'required|min:3',
             'email' => 'required|email',
-            'cedula' => 'required|digits:10',
+            'cedula' => 'required|digits:8',
             'address' => 'nullable|min:6',
             'phone' => 'required',
         ];
@@ -83,7 +83,7 @@ class DoctorController extends Controller
         $rules = [
             'name' => 'required|min:3',
             'email' => 'required|email',
-            'cedula' => 'required|digits:10',
+            'cedula' => 'required|digits:8',
             'address' => 'nullable|min:6',
             'phone' => 'required',
         ];
@@ -93,7 +93,7 @@ class DoctorController extends Controller
             'email.required' => 'El correo electronico es obligatorio',
             'email.email' => 'Ingresa una dirección de correo electrónico válido',
             'cedula.required' => 'La cédula es obligatorio',
-            'cedula.digits' => 'La cédula debe tener 10 dígitos',
+            'cedula.digits' => 'La cédula debe tener 8 dígitos',
             'address.min' => 'La dirección debe tener al menos 6 caracteres',
             'phone.required' => 'El número de teléfono es obligatorio',
         ];
